@@ -9,7 +9,7 @@ def create_box(pBoard):
             if j < len(i) - 1:
                 print(" ", end='')
         print()
-targets = []
+targets = []                                                    #list of targets
 for i in range(len(board)):                                     #adds the target squares to the target list for later use
     for j in range(len(board[1])):
             if board[i][j] == TARGET or board[i][j] == BOX_S:
